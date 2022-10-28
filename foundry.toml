@@ -1,0 +1,21 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+# Custom Configs ---------------------------------------------------------------
+remappings = [
+'forge-std/=lib/forge-std/',
+'ds-test/=lib/forge-std/lib/ds-test/',
+'openzeppelin-contracts/=lib/openzeppelin-contracts/'
+]
+
+# [rpc_endpoints]
+# mainnet         = "${RPC_ETHEREUM}"
+# optimism        = "${RPC_OPTIMISM}"
+# optimism_goerli = "${RPC_OPTIMISM_GOERLI}"
+
+# [etherscan]
+# optimism = { key = "${OPTIMISM_KEY}", chain = "goerli" }
